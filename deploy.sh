@@ -76,7 +76,7 @@ JEKYLL_ENV=$jekyll_environment bundle exec jekyll build
 
 # Change to the _site folder
 cd _site
-echo "Changed to \"$(pwd)\""
+echo "Changed to $(pwd)"
 
 # Check 3: Check for site branch
 if ! git status | grep -q "On branch $site_branch"
